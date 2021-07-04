@@ -78,9 +78,13 @@ def get_potter_ascii_art():
                    \__)
 """
 
-if __name__ == '__main__':
-    from quote_list import QUOTES
+def generate_quote(): 
+    import quote_list
     import random
+    QUOTES = quote_list.QUOTES
     random_index = random.randrange(len(QUOTES))
     parsed_message = parse_message(QUOTES[random_index])
     print(parsed_message)
+
+if __name__ == '__main__':
+    generate_quote()
