@@ -1,9 +1,17 @@
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
-# PotterSay
+  
+# Pottersay
 
-Get a random Harry potter quote in command line as a beautiful ASC-II art. 
+When bored, all of us have typed [_cowsay_](https://en.wikipedia.org/wiki/Cowsay) and [_fortune_](https://en.wikipedia.org/wiki/Fortune_(Unix)) into our terminals. `cowsay` and `fortune` are the linux command-line tools inspired our project. Our project outputs a random Harry Potter quote along with a beautiful Harry Potter themed ASC-II art.
 
+## Screenshots
 
+![Pottersay in Action](https://i.imgur.com/9Ur8zjT.jpeg)
+
+  
 ## Installation 
 
 Install the module using `pip3`, assuming python3 is already installed. 
@@ -11,37 +19,20 @@ Install the module using `pip3`, assuming python3 is already installed.
 ```bash 
   pip3 install pottersay
 ```
-
     
-## Demo
+## Contributing
 
-On your command line just type `pottersay` and see the magic happen. 
+Contributions are always welcome! Feel free to fork this repo and send a Pull Request.
+  
+## Authors
 
-```bash
-pottersay 
+- [@defcon-007](https://github.com/defcon-007)
 
-       --------------------------------
-     /   Killing is not so easy as the   \
-     \   innocent believe.               /
-       --------------------------------                            
+  
+## Acknowledgements
 
-            _            _.,----,        /
- __  _.-._ / '-.        -  ,._  \)      /
-|  `-)_   '-.   \       / < _ )/" }    /
-/__    '-.   \   '-, ___(c-(6)=(6)    /  
- , `'.    `._ '.  _,'   >\    "  )   /
- :;;,,'-._   '---' (  ( "/`. -='/
-;:;;:;;,  '..__    ,`-.`)'- '--'
-;';:;;;;;'-._ /'._|   Y/   _/' \
-      '''"._ F    |  _/ _.'._   `\
-             L    \   \/     '._  \
-      .-,-,_ |     `.  `'---,  \_ _|
-      //    'L    /  \,   ("--',=`)7
-     | `._       : _,  \  /'`-._L,_'-._
-     '--' '-.\__/ _L   .`'         './/
-                 [ (  /
-                  ) `{
-                   \__)
-```
+ - [_cowsay_](https://en.wikipedia.org/wiki/Cowsay) 
+ - [_fortune_](https://en.wikipedia.org/wiki/Fortune_(Unix))
 
+  
   
